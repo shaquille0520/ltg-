@@ -66,5 +66,6 @@ def upload_file():
 def uploaded_file(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
-if __name__ == '__main__':
-    app.run(host='192.168.0.184', port=5000, debug=True)
+
+if __name__ == "__main__":
+	app.run()
